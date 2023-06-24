@@ -9,7 +9,7 @@ function weatherApp ()  {
                 return response.json()
             }
             else {
-
+                alert('Wrong input!!!')
             }
         }).then(response => {
             let pogoda = response.weather[0].main
